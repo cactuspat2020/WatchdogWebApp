@@ -1,0 +1,7 @@
+{
+    "tableName": "Policy",
+    "partitionKeyName": "policyId",
+    "partitionKeyType": "S",
+    "sortKeyName": "policyType",
+    "sortKeyType": "S"
+}

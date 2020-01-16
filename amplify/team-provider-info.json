@@ -10,6 +10,11 @@
             "StackName": "amplify-watchdogwebapp-watchdogen-93953",
             "StackId": "arn:aws:cloudformation:us-west-2:372431211836:stack/amplify-watchdogwebapp-watchdogen-93953/f9082250-2fd9-11ea-b590-0266c276fda0",
             "AmplifyAppId": "d3abdev57nudgm"
+        },
+        "categories": {
+            "auth": {
+                "watchdogwebapp259be886": {}
+            }
         }
     }
 }

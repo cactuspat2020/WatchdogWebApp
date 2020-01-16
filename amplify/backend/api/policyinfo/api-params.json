@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/policyinfo",
+            "lambdaFunction": "policyinfo",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "policyinfo",
+    "apiName": "policyinfo",
+    "functionArns": [
+        {
+            "lambdaFunction": "policyinfo"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-watchdogwebapp-watchdogen-93953-authRole",
+        "unAuthRoleName": "amplify-watchdogwebapp-watchdogen-93953-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "policyinfo",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
